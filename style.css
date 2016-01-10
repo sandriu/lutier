@@ -320,7 +320,7 @@ body, input, textarea {
 	line-height: 1.625;
 }
 body {
-	background: #e2e2e2; /* #00ff00;*/
+	background: white; /* #00ff00;*/
 }
 #page {
 	background:#fff;
