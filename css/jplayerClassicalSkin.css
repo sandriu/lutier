@@ -1,0 +1,316 @@
+/*
+ * Skin for jPlayer Plugin (jQuery JavaScript Library)
+ * http://www.happyworm.com/jquery/jplayer
+ *
+ * Skin Name: Blue Monday
+ *
+ * Copyright (c) 2010-2011 Happyworm Ltd
+ * Dual licensed under the MIT and GPL licenses.
+ *  - http://www.opensource.org/licenses/mit-license.php
+ *  - http://www.gnu.org/copyleft/gpl.html
+ *
+ * Author: Silvia Benvenuti
+ * Skin Version: 4.0 (jPlayer 2.1.0)
+ * Date: 1st September 2011
+ 
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+     Fully redesigned by Sonia Andriu, including CSS sprites 
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ */
+
+div.jp-audio {
+	/* Edit the font-size to counteract inherited font sizing. Eg. 1.25em = 1 / 0.8em */
+	font-size:1em; /* 1.25em for testing in site pages */ /* No parent CSS that can effect the size in the demos ZIP */
+	font-family:Verdana, Arial, sans-serif;
+	line-height:1.6;
+
+	border:0px solid #009be3;
+	background-color:#fff;
+
+	position:relative;
+	float: right;
+	width: 390px; /*!!!*/
+}
+
+div.jp-audio div.jp-type-playlist div.jp-interface {
+	height: 50px; /* height for buttons area */
+}
+
+
+/*############# @group CONTROLS #############*/
+
+div.jp-interface ul.jp-controls {
+	list-style-type: none;
+	margin:0;
+	padding: 0;
+	overflow:hidden;
+	
+}
+
+div.jp-audio ul.jp-controls {
+	width: 350px;
+	padding: 10px 0px 0px 0px; /* general padding for buttons */
+	float: right;
+}
+
+div.jp-interface ul.jp-controls li {
+	display:inline;
+	float: left;
+}
+
+div.jp-interface ul.jp-controls a {
+	display:block;
+	overflow:hidden;
+	text-indent:-9999px;
+}
+
+a.jp-play,
+a.jp-pause {
+	width: 29px;
+	height: 29px;
+	margin-top: 6px;
+	margin-left: 14px;
+}
+
+a.jp-stop, a.jp-previous, a.jp-next {
+	width: 24px;
+	height: 29px;
+	margin-top: 6px;
+}
+
+a.jp-mute,
+a.jp-unmute{
+	width: 28px;
+	height: 24px;
+	margin-top: 9px; /*!!!*/
+	margin-left: 10px;
+}
+
+/* resources */
+a.jp-play {
+	background: url("result.png") 0px -248px no-repeat;
+}
+
+a.jp-play:hover {
+	background: url("result.png") 0px -214px no-repeat;
+}
+
+a.jp-pause {
+	background: url("result.png") 0px -160px no-repeat;
+	display: none;
+}
+
+a.jp-pause:hover {
+	background: url("result.png") 0px -126px no-repeat;
+}
+
+a.jp-stop {
+	background: url("result.png") 0px -431px no-repeat;
+	margin-left: 7px;
+}
+
+a.jp-stop:hover {
+	background: url("result.png") 0px -397px no-repeat;
+}
+
+a.jp-previous {
+	background: url("result.png") 0px -316px no-repeat;
+}
+
+a.jp-previous:hover {
+	background: url("result.png") 0px -282px no-repeat;
+}
+
+a.jp-next {
+	background: url("result.png") 0px -92px no-repeat;
+}
+
+a.jp-next:hover {
+	background: url("result.png") 0px -58px no-repeat;
+}
+
+a.jp-mute {
+	background: url("result.png") 0px 0px no-repeat;
+}
+
+a.jp-mute:hover {
+	background: url("result.png") 0px -29px no-repeat;
+}
+
+a.jp-unmute {
+	background: url("result.png") 0px -465px no-repeat;
+	display: none;
+}
+
+a.jp-unmute:hover {
+	background: url("result.png") 0px -494px no-repeat;
+}
+
+
+
+
+/* ############ @group progress bar ############*/
+div.jp-progress {
+	overflow: hidden;
+	background-color: #fff; 
+	width: 70px;
+}
+div.jp-audio div.jp-progress {
+	margin: 0;
+	padding: 0;
+	height: 12px;
+	width: 120px;
+	z-index: 1000;
+	margin-top: 13px; /* 13px !!!*/
+	margin-left: 4px;
+}
+
+div.jp-seek-bar {
+	background: url("result.png") 0px -350px repeat-x;
+	width: 0px;
+	height: 100%;
+	cursor: pointer;
+}
+div.jp-play-bar {
+	background: url("result.png") 0px -194px repeat-x;
+	width:0px;
+	height:100%;
+}
+
+/* The seeking class is added/removed inside jPlayer */
+div.jp-seeking-bg {
+	background: url("result.png") 0px -370px;
+}
+
+
+
+/*########### @group playlist ##############*/
+
+div.jp-title {
+	font-weight:bold;
+	text-align:center;
+}
+
+div.jp-title,
+div.jp-playlist {
+	width:100%;
+	background-color:#fff; /* background colour for playlist area */
+	border-top:1px solid #ddd;
+	margin: 0;
+}
+div.jp-type-single div.jp-title,
+div.jp-type-playlist div.jp-title,
+div.jp-type-single div.jp-playlist {
+	border-top:none;
+}
+div.jp-title ul,
+div.jp-playlist ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;/* !!! */
+	font-size:.72em;
+}
+
+div.jp-title li {
+	padding:5px 0;
+	font-weight:bold;
+}
+div.jp-playlist li {
+	/*padding:5px 0 4px 20px;*/
+	border-bottom:0px solid #eee;
+}
+
+div.jp-playlist li div {
+	display:inline;
+}
+
+/* Note that the first-child (IE6) and last-child (IE6/7/8) selectors do not work on IE */
+
+div.jp-type-playlist div.jp-playlist li:last-child {
+	/*padding:5px 0 5px 20px;*/
+	border-bottom:none;
+}
+
+div.jp-type-playlist div.jp-playlist li.jp-playlist-current {
+	list-style-type: none;
+	/*list-style-position:inside;
+	padding-left:7px;*/
+	margin: auto;
+}
+
+div.jp-type-playlist div.jp-playlist a {
+	color: #5A4A42; /* text colour for song titles, currently in the list; should be the same colour as buttons' colour, ie  */
+	text-decoration: none;
+}
+div.jp-type-playlist div.jp-playlist a:hover {
+	color: #C1B49A; /* text colour for song titles, when hover; should be the same colour as seek-bar's colour, when hover */
+}
+div.jp-type-playlist div.jp-playlist a.jp-playlist-current {
+	color: #F6921E; /* text colour for current song; should be the same colour as seek-bar's colour, when music is played */
+}
+
+div.jp-playlist li {
+	display: none;
+}
+
+div.jp-playlist li.jp-playlist-current {
+	display: list-item;
+}
+
+div.jp-type-playlist div.jp-playlist a.jp-playlist-item-remove {
+	float:right;
+	display:inline;
+	text-align:right;
+	margin-right:10px;
+	font-weight:bold;
+	color:#666;
+}
+div.jp-type-playlist div.jp-playlist a.jp-playlist-item-remove:hover {
+	color:#0d88c1;
+}
+div.jp-type-playlist div.jp-playlist span.jp-free-media {
+	float:right;
+	display:inline;
+	text-align:right;
+	margin-right:10px;
+}
+div.jp-type-playlist div.jp-playlist span.jp-free-media a{
+	color:#666;
+}
+div.jp-type-playlist div.jp-playlist span.jp-free-media a:hover{
+	color:#0d88c1;
+}
+span.jp-artist {
+	font-size:.8em;
+	color:#666;
+}
+
+
+/*############## @group NO SOLUTION error feedback ###########*/
+
+.jp-no-solution {
+	position:absolute;
+	width:390px;
+	margin-left:-202px;
+	left:50%;
+	top: 10px;
+
+	padding:5px;
+	font-size:.8em;
+	background-color:#eee;
+	border:0px solid #009be3;
+	color:#000;
+	display:none;
+}
+
+.jp-no-solution a {
+	color:#000;
+}
+
+.jp-no-solution span {
+	font-size:1em;
+	display:block;
+	text-align:center;
+	font-weight:bold;
+}
+
