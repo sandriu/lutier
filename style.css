@@ -1024,10 +1024,10 @@ article.format-status .entry-content {
 	position: relative;
 }
 .singular.page .hentry {
-	padding: 3.5em 0 0;
+	/* padding: 3.5em 0 0; Disabled by cata as it was creating a rather large white space. */
 }
 .singular .entry-title {
-	color: #656565;
+	/* color: #656565; Commented out by cata to allow the default .entry-title style. */
 	font-size: 16px; /* font-size for a post title, when shown single on a page */
 	font-weight: bold;
 	line-height: 48px;
