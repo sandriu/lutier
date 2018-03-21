@@ -2651,4 +2651,8 @@ p.comment-form-comment {
 	font-size:13px;
 }
 
+.page .entry-title {
+	display: none;
+}
+
 
