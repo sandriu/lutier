@@ -25,7 +25,7 @@
                         
 				<?php do_action( 'twentyeleven_credits' ); ?>
 				<!--<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'twentyeleven' ) ); ?>" title="<?php esc_attr_e( 'Semantic Personal Publishing Platform', 'twentyeleven' ); ?>" rel="generator"><?php printf( __( 'Proudly powered by %s', 'twentyeleven' ), 'WordPress' ); ?></a>-->
-                         <p>Copyright (C) 2011 - 2016 Felix Daniel Rotaru</p>
+                         <p>Copyright (C) 2011 - <?php echo date('Y'); ?> Felix Daniel Rotaru</p>
 			</div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
