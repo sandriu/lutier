@@ -24,8 +24,8 @@
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <meta name="viewport" content="width=device-width" />
-<meta name="description" content="Luthier Felix Rotaru creates custom made, 100% handcrafted violins and other fine string instruments. Visit his shop and studio based in Vienna Austria" />
-<meta name="keywords" content="luthier, felix, rotaru, violin, viola, violoncello, cello, custom made, handcrafted, Stradivari, Guarneri, Bergonzi, Montagnana, Guadagnini, Gofriller, shop, studio, Vienna, Austria" />
+<meta name="description" content="Violinmaker Felix Daniel Rotaru creates violins, violas and violoncelli following the classical italian tradition for the most demanding musicians. All his instruments are entirely handmade using traditional tools and methods. His limited production is available to try and purchase in his shop in Vienna, Austria." />
+<meta name="keywords" content="violin, violino, geige, violon, viola, alto, bratsche, violoncello, cello, Stradivari, Guarneri, Bergonzi, Montagnana, Guadagnini, handmade, luthier,  lutier, liutaio, violinmaker, geigenbauer, violin maker, Lutherie, violinmaking, geigenbau, liuteria, Vienna, Austria" />
 <title><?php
 	/*
 	 * Print the <title> tag based on what is being viewed.
