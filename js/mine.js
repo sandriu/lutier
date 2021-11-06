@@ -8,13 +8,13 @@ $(document).ready(function(){
     }, [
 	{
 	    title:"(1 of 2) J.Brahms - Sonata no. 1, Maria Florea, violin Rotaru 2009",
-	    oga:"http://felixrotaru.com/wp-content/uploads/2011/09/VIP__Florea_Canyigueral_07.ogg",
-	    mp3:"http://felixrotaru.com/wp-content/uploads/2011/09/VIP__Florea_Canyigueral_07.mp3",
+	    oga:"https://felixrotaru.com/wp-content/uploads/2011/09/VIP__Florea_Canyigueral_07.ogg",
+	    mp3:"https://felixrotaru.com/wp-content/uploads/2011/09/VIP__Florea_Canyigueral_07.mp3",
 	},
 	{
 	    title:"(2 of 2) F.Kreisler - Libesleid, Maria Florea, violin Rotaru 2009",
-	    oga:"http://felixrotaru.com/wp-content/uploads/2011/09/VIP__Florea_Canyigueral_12.ogg",
-	    mp3:"http://felixrotaru.com/wp-content/uploads/2011/09/VIP__Florea_Canyigueral_12.mp3",
+	    oga:"https://felixrotaru.com/wp-content/uploads/2011/09/VIP__Florea_Canyigueral_12.ogg",
+	    mp3:"https://felixrotaru.com/wp-content/uploads/2011/09/VIP__Florea_Canyigueral_12.mp3",
 	}
     ], {
 	playlistOptions: {
