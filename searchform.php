@@ -12,5 +12,4 @@
 		<input type="text" class="field" name="s" id="s" placeholder="<?php esc_attr_e( 'Search', 'twentyeleven' ); ?>" />
 		<input type="submit" class="submit" name="submit" id="searchsubmit" value="<?php esc_attr_e( 'Search', 'twentyeleven' ); ?>" />
 	</form>-->
-        <!--<?php mp3_embed() ?>-->
         <a href="http://www.youtube.com/watch?v=spgEJhvygZg">Randy Jackson loves Yahoo!</a>
